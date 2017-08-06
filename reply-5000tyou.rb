@@ -27,7 +27,7 @@ Plugin.create(:d250g2_emoji) do
           visible: true,
           role: :timeline) do |m|
     m.messages.map do |msg|
-      emoji(msg.message,'otintin_open.png')
+      emoji(msg.message,'otintin_open.jpg')
     end
   end
   
@@ -37,7 +37,7 @@ Plugin.create(:d250g2_emoji) do
           visible: true,
           role: :timeline) do |m|
     m.messages.map do |msg|
-      emoji(msg.message,'otintin_close.png')
+      emoji(msg.message,'otintin_close.jpg')
     end
   end
   
@@ -47,7 +47,7 @@ Plugin.create(:d250g2_emoji) do
           visible: true,
           role: :timeline) do |m|
     m.messages.map do |msg|
-      emoji(msg.message,'otintin_opose.png')
+      emoji(msg.message,'otintin_opose.jpg')
     end
   end
   
@@ -57,7 +57,7 @@ Plugin.create(:d250g2_emoji) do
           visible: true,
           role: :timeline) do |m|
     m.messages.map do |msg|
-      emoji(msg.message,'final.png')
+      emoji(msg.message,'final.jpg')
     end
   end
 
